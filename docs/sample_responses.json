@@ -1,0 +1,42 @@
+{
+  "analyze_video_success": {
+    "success": true,
+    "session_id": 1,
+    "data": {
+      "id": 1,
+      "source_type": "video",
+      "activity_label": "squatting",
+      "repetition_count": 5,
+      "posture_score": 82.5,
+      "motor_function_score": 78.2,
+      "joint_angles_avg": {
+        "knee_left": 128.6,
+        "elbow_left": 168.2
+      },
+      "summary": {
+        "status": "healthy",
+        "activity_detected": "squatting"
+      }
+    }
+  },
+  "analyze_frame_success": {
+    "success": true,
+    "session_id": 2,
+    "data": {
+      "pose_detected": true,
+      "posture_score": 88.5,
+      "joint_angles": {
+        "knee_left": 176.3
+      },
+      "overlay_image": "data:image/jpeg;base64,..."
+    }
+  },
+  "error_validation": {
+    "success": false,
+    "error": "No video file provided. Use 'video' or 'file' field."
+  },
+  "error_not_found": {
+    "success": false,
+    "error": "Session 999 not found"
+  }
+}

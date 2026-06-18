@@ -1,0 +1,27 @@
+name: motor_function_tracker
+description: AI-powered motor function tracking mobile app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  provider: ^6.1.1
+  fl_chart: ^0.66.2
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+  intl: ^0.19.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
